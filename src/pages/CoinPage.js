@@ -47,15 +47,18 @@ const CoinPage = () => {
     heading: {
       fontWeight: "bold",
       marginBottom: 20,
-      fontFamily: "Montserrat",
+      fontFamily: "Georgia, 'Times New Roman', Times, serif",
+      color: "rgba(175, 175, 175, 0.865)"
     },
     description: {
       width: "100%",
-      fontFamily: "Montserrat",
+      fontFamily: "Georgia, 'Times New Roman', Times, serif",
       padding: 25,
       paddingBottom: 15,
       paddingTop: 0,
       textAlign: "justify",
+      fontSize: "medium",
+      color: "white"
     },
     marketData: {
       alignSelf: "start",
@@ -78,21 +81,21 @@ const CoinPage = () => {
 
   const classes = useStyles();
 
-  if (!coin) return <LinearProgress style={{ backgroundColor: "gold" }} />;
+  if (!coin) return <LinearProgress style={{ backgroundColor: "rgba(231, 59, 59, 0.92)" }} />;
 
   return (
-    <div className={classes.container}>
-      <div className={classes.sidebar}>
+    <div className={classes.container} style={{margin:"2%", marginBottom:"0"}}>
+      <div className={classes.sidebar} style={{paddingRight:"2%"}}>
         <img
           src={coin?.image.large}
           alt={coin?.name}
           height="200"
           style={{ marginBottom: 20 }}
         />
-        <Typography variant="h3" className={classes.heading}>
+        <Typography variant="h3" className={classes.heading} style={{color: "rgba(175, 175, 175, 0.865)"}}>
           {coin?.name}
         </Typography>
-        <Typography variant="subtitle1" className={classes.description}>
+        <Typography variant="subtitle1" className={classes.description} style={{color: "whitesmoke"}}>
           {ReactHtmlParser(coin?.description.en.split(". ")[0])}.
         </Typography>
         <div className={classes.marketData}>
@@ -104,7 +107,7 @@ const CoinPage = () => {
             <Typography
               variant="h5"
               style={{
-                fontFamily: "Montserrat",
+                fontFamily: "Verdana, Geneva, Tahoma, sans-serif",
               }}
             >
               {numberWithCommas(coin?.market_cap_rank)}
@@ -119,7 +122,7 @@ const CoinPage = () => {
             <Typography
               variant="h5"
               style={{
-                fontFamily: "Montserrat",
+                fontFamily: "Verdana, Geneva, Tahoma, sans-serif",
               }}
             >
               {symbol}{" "}
@@ -136,7 +139,7 @@ const CoinPage = () => {
             <Typography
               variant="h5"
               style={{
-                fontFamily: "Montserrat",
+                fontFamily: "Verdana, Geneva, Tahoma, sans-serif",
               }}
             >
               {symbol}{" "}

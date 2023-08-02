@@ -44,7 +44,7 @@ export default function CoinsTable() {
     },
     pagination: {
       "& .MuiPaginationItem-root": {
-        color: "gold",
+        color: "rgba(231, 59, 59, 0.92)",
       },
     },
   });
@@ -88,29 +88,30 @@ export default function CoinsTable() {
       <Container style={{ textAlign: "center" }}>
         <Typography
           variant="h4"
-          style={{ margin: 18, fontFamily: "Montserrat" }}
+          style={{ margin: 18, fontFamily: "Montserrat", color:"rgba(186, 186, 186, 0.934)" }}
         >
           Cryptocurrency Prices by Market Cap
         </Typography>
         <TextField
-          label="Search For a Crypto Currency.."
+          label="Search For a Crypto Currency"
           variant="outlined"
-          style={{ marginBottom: 20, width: "100%" }}
+          style={{ marginBottom: 22, width: "100%" }}
           onChange={(e) => setSearch(e.target.value)}
         />
         <TableContainer component={Paper}>
           {loading ? (
-            <LinearProgress style={{ backgroundColor: "gold" }} />
+            <LinearProgress style={{ backgroundColor: "rgba(231, 59, 59, 0.92)" }} />
           ) : (
             <Table aria-label="simple table">
-              <TableHead style={{ backgroundColor: "#EEBC1D" }}>
+              <TableHead style={{ backgroundColor: "rgba(231, 59, 59, 0.92)" }}>
                 <TableRow>
                   {["Coin", "Price", "24h Change", "Market Cap"].map((head) => (
                     <TableCell
                       style={{
-                        color: "black",
+                        color: "white",
                         fontWeight: "700",
-                        fontFamily: "Montserrat",
+                        fontSize: "medium",
+                        fontFamily: "Verdana, Geneva, Tahoma, sans-serif",
                       }}
                       key={head}
                       align={head === "Coin" ? "" : "right"}

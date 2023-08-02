@@ -17,7 +17,7 @@ import {
   const useStyles = makeStyles((theme) => ({
     title: {
       flex: 1,
-      color: "gold",
+      color: "rgba(231, 59, 59, 0.92)",
       fontFamily: "Montserrat",
       fontWeight: "bold",
       cursor: "pointer",
@@ -49,7 +49,7 @@ import {
                 variant="h6"
                 className={classes.title}
               >
-                Crypto Hunter
+                Crypto <span style={{color:"white"}}>Market</span>
               </Typography>
               {/* <Button color="inherit">Login</Button> */}
               <Select

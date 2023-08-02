@@ -4,6 +4,7 @@ import Carousel from "./Carousel";
 const useStyles = makeStyles((theme) => ({
   banner: {
     backgroundImage: "url(./banner2.jpg)",
+    backgroundRepeat: "no-repeat"
   },
   bannerContent: {
     height: 400,
@@ -41,7 +42,7 @@ function Banner() {
               fontFamily: "Montserrat",
             }}
           >
-            Crypto Hunter
+            <span style={{color:"rgba(231, 59, 59, 0.92)"}}>Crypto</span> Market
           </Typography>
           <Typography
             variant="subtitle2"
