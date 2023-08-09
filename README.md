@@ -33,8 +33,7 @@ npm start
 - MaterialUI for design
 
 ## Screenshots:
-<br/>
-<br/>
+
 - **Home Page provide users with a carousal with name, price, symbol and profit/loss of the coins**
 
 ![i1](./images/1.png)
