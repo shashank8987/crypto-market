@@ -1,53 +1,62 @@
-# CRYPTO MARKET
+# CRYPTO-MARKET
+## _The realtime Crypto analysis_
+
 
 
 
 ## Introduction:
-- Crypto Market is a RealTime Crypto Tracker App 
+- Crypto Market application offers real-time cryptocurrency monitoring, empowering users to track market prices, and historical data. 
 
-- Users can can see the current price, the net Market Cap, profit and losses of the cryptocurrencies 
+- With user-friendly interfaces and timely insights, it simplifies crypto asset management.
 
-- Users can also see the data and the graph of past 24h, past 1 month, past 3 months and past 1 year
+## Installation
 
-- CoinGecko API is used for the Realtime Crypto Data
+- Git cloning the repository
+```
+git clone https://github.com/shashank8987/crypto-market.git
+```
+- Installing all react modules
+```
+npm install
+```
+- Run the following command to start with the project
+```
+npm start
+```
 
-## Technology:
-- ReactJS
 
-- CoinGecko API for Realtime data
+## Technology Stack:
 
+- ReactJs
+- CoinGecko API for Realtime Crypto data
 - React Line Chart for the graphical representation of data
-
-- React Linear and Circular Progression as Loader
-
 - MaterialUI for design
-  
-## In the Home Page users can see a carousal with name, price, symbol and profit/loss of the coins
-![Screenshot 1](./images/1.png)
 
-## Users can view the Table with coins name and 24h change with pagination at the bottom, with only 10 coins per page
-![Screenshot 2](./images/2.png)
+## Screenshots:
+<br/>
+<br/>
+- **Home Page provide users with a carousal with name, price, symbol and profit/loss of the coins**
 
-## Users can also search for the coins they want
-![Screenshot 3](./images/3.png)
+![i1](./images/1.png)
+<br/>
+<br/>
+- **Users can view the Table with coins name, 24h change, market price and market capital with pagination at the bottom, with only 10 coins per page**
 
-## Users can see the Graphical representation of ups/downs of market in past 24h, 1month, 3months, 1year. They can view the rank of the coins(based on Market Cap), the coins description and the net Market value of the coins. Users can view the prices in INR and USD
-![Screenshot 4](./images/4.png)
+![i2](./images/2.png)
+<br/>
+<br/>
+- **Users can also search for the coins they want**
 
-## By pointing on the graph of particular date, user can view the price of coins on that particular date
-![Screenshot 5](./images/5.png)
+![i3](./images/3.png)
+<br/>
+<br/>
+- **Users can see the Graphical representation of ups/downs of market in past 24h, 1month, 3months, 1year. They can view the rank of the coins(based on Market Cap), the coins description and the net Market value of the coins. Users can view the prices in INR and USD**
 
-## To start with the application:
-- Initially clone or download the zip of the project
+![i4](./images/4.png)
+<br/>
+<br/>
+- **By pointing on the graph of particular date, user can view the price of coins on that particular date**
 
-- Install the required node modules using "npm i"
+![i5](./images/5.png)
 
-- Use "npm start" to run the project and project will start at localhost:3000
-
-
-
- 
-
-
-
-
+### Developed by - Shashank Shekhar
