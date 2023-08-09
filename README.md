@@ -49,7 +49,7 @@ npm start
 ![i3](./images/3.png)
 <br/>
 <br/>
-- **Users can see the Graphical representation of ups/downs of market in past 24h, 1month, 3months, 1year. They can view the rank of the coins(based on Market Cap), the coins description and the net Market value of the coins. Users can view the prices in INR and USD**
+- **Users can see the Graphical representation of ups/downs of market in past 24h, 1month, 3months and 1year. They can view the rank of the coins(based on Market Cap), the coins description and the net Market value of the coins. Users can view the prices in INR and USD**
 
 ![i4](./images/4.png)
 <br/>
