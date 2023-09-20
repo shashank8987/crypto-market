@@ -15,6 +15,7 @@ import {
   import { CryptoState } from "../CryptoContext";
   
   const useStyles = makeStyles((theme) => ({
+    
     title: {
       flex: 1,
       color: "rgba(231, 59, 59, 0.92)",
@@ -52,6 +53,15 @@ import {
                 Crypto <span style={{color:"white"}}>Market</span>
               </Typography>
               {/* <Button color="inherit">Login</Button> */}
+              <button
+                variant="outlined"
+                labelId="demo-simple-select-label"
+                id="demo-simple-select"
+                style={{ width: 100, height: 40, marginLeft: 15, backgroundColor: "black", border: "0.2px solid grey", borderRadius: "6%", color: "whitesmoke", fontWeight: "bold", fontSize:"14.5px", cursor:"pointer" }}
+                onClick={()=>history.push("/news")}
+              >
+                NEWS
+              </button>
               <Select
                 variant="outlined"
                 labelId="demo-simple-select-label"
