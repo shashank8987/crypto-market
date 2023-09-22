@@ -9,6 +9,8 @@
 
 - With user-friendly interfaces and timely insights, it simplifies crypto asset management.
 
+- Users can also see the news related to cryptos.
+
 ## Installation
 
 - Git cloning the repository
@@ -31,6 +33,7 @@ npm start
 - CoinGecko API for Realtime Crypto data
 - React Line Chart for the graphical representation of data
 - MaterialUI for design
+- News API for crypto related news
 
 ## Screenshots:
 
@@ -57,5 +60,10 @@ npm start
 - **By pointing on the graph of particular date, user can view the price of coins on that particular date**
 
 ![i5](./images/5.png)
+<br/>
+<br/>
+- **Users can also see the latest news related to cryptocurrencies**
+
+![i6](./images/6.png)
 
 ### Developed by - Shashank Shekhar
