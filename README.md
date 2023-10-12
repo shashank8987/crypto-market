@@ -66,4 +66,3 @@ npm start
 
 ![i6](./images/6.png)
 
-### Developed by - Shashank Shekhar
